@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="231.0" prefWidth="232.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.joystickPack.JoystickController">
+   <children>
+      <Slider fx:id="rudder" layoutX="6.0" layoutY="213.0" min="-1.0" max="1.0" prefHeight="14.0" prefWidth="222.0" />
+      <Slider fx:id="throttle" layoutX="5.0" layoutY="30.0" max="1.0" orientation="VERTICAL" prefHeight="180.0" prefWidth="16.0" />
+      <Text fill="#ac2a76" layoutX="70.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joystick" wrappingWidth="111.89337158203125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Circle fill="#f7e4f7" layoutX="117.0" layoutY="120.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Canvas fx:id="joystick" height="139.0" layoutX="47.0" layoutY="50.0" width="143.0" />
+
+   </children>
+</Pane>

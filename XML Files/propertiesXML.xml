@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.1" class="java.beans.XMLDecoder">
+ <string>ip</string>
+ <string>127.0.0.1</string>
+ <string>port</string>
+ <string>5400</string>
+</java>

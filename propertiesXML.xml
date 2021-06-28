@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.1" class="java.beans.XMLDecoder">
+ <object class="view.readXML.myProperty">
+  <void property="name">
+   <string>ip</string>
+  </void>
+  <void property="valMax">
+   <string>1</string>
+  </void>
+  <void property="valMin">
+   <string>-1</string>
+  </void>
+ </object>
+ <object class="view.readXML.myProperty">
+  <void property="name">
+   <string>127.0.0.1</string>
+  </void>
+  <void property="valMax">
+   <string>1</string>
+  </void>
+  <void property="valMin">
+   <string>-1</string>
+  </void>
+ </object>
+</java>

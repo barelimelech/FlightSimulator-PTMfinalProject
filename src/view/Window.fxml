@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import view.featuresListPack.FeaturesList?>
+<?import view.joystickPack.Joystick?>
+<?import view.buttonsPack.Buttons?>
+
+
+<?import view.buttonsPack.Buttons?>
+<?import view.clocksPack.Clocks?>
+<?import view.popup.PopUp?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+      xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.WindowController" style="-fx-background-color: white;">
+   <Pane fx:id="board">
+       <children>
+
+           <FeaturesList fx:id="listView"/>
+           <Joystick fx:id="joystick"/>
+           <Buttons fx:id="buttons"/>
+           <Clocks fx:id="clocks"/>
+            <PopUp fx:id="popup"/>
+       </children>
+   </Pane>
+</Pane>

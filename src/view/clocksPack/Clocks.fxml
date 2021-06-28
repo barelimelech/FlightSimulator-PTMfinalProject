@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import eu.hansolo.medusa.Gauge?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.clocksPack.ClocksController">
+   <children>
+      <Text fill="#ac2a76" layoutX="94.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Control Panel" wrappingWidth="141.0">
+         <font>
+            <Font size="23.0" />
+         </font></Text>
+      <Text layoutX="152.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="roll" wrappingWidth="46.93670463562012">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="257.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="pitch" wrappingWidth="46.93670463562012">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="41.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yaw" wrappingWidth="46.93670463562012">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="27.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="altitude" wrappingWidth="66.13671684265137">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="131.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="heading" wrappingWidth="78.13671684265137">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="243.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="airspeed" wrappingWidth="78.13671684265137">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Gauge fx:id="yaw" layoutY="135.0" prefHeight="97.0" prefWidth="110.0" />
+      <Gauge fx:id="roll" layoutX="111.0" layoutY="138.0" prefHeight="97.0" prefWidth="110.0" />
+      <Gauge fx:id="altitude" layoutX="1.0" layoutY="27.0" prefHeight="97.0" prefWidth="110.0" />
+      <Gauge fx:id="pitch" layoutX="222.0" layoutY="138.0" prefHeight="97.0" prefWidth="110.0" />
+      <Gauge fx:id="heading" layoutX="107.0" layoutY="27.0" prefHeight="97.0" prefWidth="110.0" />
+      <Gauge fx:id="airspeed" layoutX="220.0" layoutY="27.0" prefHeight="97.0" prefWidth="110.0" />
+   </children>
+</Pane>

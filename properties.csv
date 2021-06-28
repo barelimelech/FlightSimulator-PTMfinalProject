@@ -1,0 +1,12 @@
+ip,127.0.0.1
+port,5400
+throttle,6
+aileron,0
+elevator,1
+rudder,2
+pitch,29
+roll,28
+heading,36
+airspeed,24
+altitude,25
+yaw,20
